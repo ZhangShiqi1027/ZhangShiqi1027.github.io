@@ -3,28 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Homepage</title>
+    <title>Shiqi Zhang's Homepage</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            line-height: 1.6;
+            margin: 0;
+            padding: 0;
             background-color: #f4f4f4;
         }
-        h1, h2 {
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
             color: #333;
         }
-        .section {
+        .contact, .education, .notes {
             margin-bottom: 20px;
-            padding: 15px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         a {
-            color: #007bff;
+            color: #4CAF50;
             text-decoration: none;
         }
         a:hover {
@@ -33,34 +40,36 @@
     </style>
 </head>
 <body>
-    <h1>Welcome to My Personal Homepage</h1>
 
-    <!-- Contact Information Section -->
-    <div class="section">
+<header>
+    <h1>Shiqi Zhang's Personal Homepage</h1>
+</header>
+
+<section>
+    <div class="contact">
         <h2>Contact Information</h2>
-        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">Your LinkedIn Profile</a></p>
-        <p>GitHub: <a href="https://github.com/your-username" target="_blank">Your GitHub</a></p>
+        <p><strong>Name:</strong> Shiqi Zhang (张世琦)</p>
+        <p><strong>Email:</strong> <a href="mailto:zhangshiqi_oct@foxmail.com">zhangshiqi_oct@foxmail.com</a></p>
+        <p><strong>University:</strong> University of Electronic Science and Technology of China (UESTC), Yingcai Honors College</p>
+        <p><strong>Address:</strong> No.2006 Xiyuan Avenue, Pidu District, Chengdu, Sichuan Province</p>
     </div>
 
-    <!-- Education Section -->
-    <div class="section">
+    <div class="education">
         <h2>Education</h2>
-        <p><strong>University of Electronic Science and Technology of China</strong></p>
-        <p>Bachelor’s in Computer Science and Technology (or Artificial Intelligence)</p>
-        <p>Expected Graduation: [Year]</p>
+        <p><strong>2020 - 2023:</strong> Wafangdian Senior High School</p>
+        <p><strong>2023 - Present:</strong> Bachelor’s Degree at UESTC, Yingcai Honors College</p>
     </div>
 
-    <!-- PDF Notes Section -->
-    <div class="section">
-        <h2>My PDF Notes</h2>
+    <div class="notes">
+        <h2>Downloadable Notes</h2>
+        <p>Click the links below to download my notes:</p>
         <ul>
-            <li><a href="files/note1.pdf" download>Note 1: Topic Title</a></li>
-            <li><a href="files/note2.pdf" download>Note 2: Topic Title</a></li>
-            <li><a href="files/note3.pdf" download>Note 3: Topic Title</a></li>
-            <!-- Add more notes as needed -->
+            <li><a href="path/to/note1.pdf" download>Note 1 - Topic Title</a></li>
+            <li><a href="path/to/note2.pdf" download>Note 2 - Topic Title</a></li>
+            <li><a href="path/to/note3.pdf" download>Note 3 - Topic Title</a></li>
         </ul>
     </div>
+</section>
 
 </body>
 </html>
